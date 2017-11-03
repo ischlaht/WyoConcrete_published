@@ -1,0 +1,509 @@
+
+#totalcontainer{
+    background-color: black;
+    width:99%;
+    height:100%;
+    padding: 10px 0px 10px 0px;
+}
+
+#maincontainer{
+    background-color:#FFD700;
+    height:100%;
+    width:93.5%;
+    margin-top:;
+    margin-bottom: 1%;
+    margin-left:3.3%;
+    padding-bottom:20px;;
+    display:inline-table;
+    
+    border:15px black;
+    border-style:solid;
+    border-radius:20px;
+   
+    
+}
+
+/*-------------------------This is for the Header\title*/
+#header{
+    color:#FFd700;
+    background-color:#533B22;
+    padding:3px;
+    padding-top:1%;
+    padding-bottom:1%;
+    width:92%;
+    height:6%;
+    max-height:255px;
+    border-radius:10px;
+    border:15px solid #FDD700;
+    border-left: none;
+    border-right:none;
+    position: inherit;
+} 
+
+#header maintitle{
+    font-size:40px
+}
+
+#header localto{
+    font-size:20px;
+}
+#header punchline{
+    color:red;
+    font-style:italic;
+    font-size:25px;
+    display:inline-grid;
+    position:inherit;
+    float:right;
+    width:300px;
+    margin-top:-2%;
+}
+
+/*------------This is for Logo in header*/
+#logo{
+    float:left;
+    display:block;
+    position:inherit;
+    width: 100px;
+    height:100px;
+    margin-left:10%;
+    margin-right:-20%;
+}
+
+/*--------------------------------------END main Header*/
+
+/*This is for the Link information*/
+#links{
+    color:#FFD700;
+    background-color:#533B22;
+    border-radius:10px;
+    border:5px solid black;
+    padding:8px;
+    padding-right:2%;
+    padding-left:2%;
+    padding-bottom:4%;
+    padding-top:1%;
+    margin-left:3%;
+    margin-top: 2%;
+    width:275px;
+    min-width:275px;
+    display:inline-block;
+    text-align:center;
+}
+
+#links menutitle{
+    color:darkgrey;
+    border-bottom:5px solid black;
+    display:inline-grid;
+    width:100%;
+    padding:0px;
+    margin:0px 0px 20px 0px;;
+}
+
+/*--------------------------------This is for the We do it all section*/
+#info{
+    color:darkgrey;
+    background-color:#533B22;
+    float:right;
+    border:5px solid black;
+    border-radius:10px;
+    width:55%;
+    height:100%;
+    
+    margin-top:20px;
+    margin-right:1%;
+    padding:10px;
+    padding-left:5%;
+    padding-right:2%;
+    position: inherit;
+}
+
+#info infotitle{
+    font-size:50px;
+    text-align: center;
+    width:96%;
+    border-bottom:5px solid black;
+    display:inline-grid;
+    margin:0px 0px 10px 0px;
+}
+
+#info img{
+    width:300px;
+    height:200px;
+}
+
+    #infoalign1{
+    float:left;
+    font-size:25px;
+    padding:0% 2% 0% 2%;
+    margin-left:2%;
+    margin-top:3%;
+    width:45%;
+    min-width:305px;
+    display:inline-block;
+    position: inherit;
+}
+
+    #infoalign2{
+    float:left;
+    font-size:25px;
+    display:inline-block;
+    width:40%;
+    min-width:305px;
+    margin-top: 3%;
+    
+    padding:0% 2% 0% 2%;
+    position:inherit;
+        
+    
+}
+
+    #infooutro{
+    font-size:22px;
+    padding:10px;
+    text-align:center;
+    display:inline-grid;
+    
+}
+
+aboutus aboutustitle{
+    text-align: center;
+    border-bottom:5px solid black;
+    color:darkgrey;
+    margin:0px 0px 20px 0px;
+}
+
+/*----------------------------------------------------We do it all END---------------------------------------------------------------------------------------------------------------*/
+
+
+/*------------------------------------------ABOUT US*/
+#intro{
+    font-size:19px;
+    font-style:;
+    color:black;
+    font-family: cursive, sans-serif;
+    
+    background-color: #533B22;
+    display:inline-grid;
+    width:30%;
+    margin-left:3%;
+    margin-top:70px;
+    padding:30px;
+    border:5px solid black;
+    border-radius: 10px;
+    }
+    #intro a{
+        color:blue;
+}
+
+            #intro a:hover{
+                color:red;
+                background-color:#FDD700;
+                border:2px solid black;
+                border-radius: 10px;
+                text-decoration: none;
+}
+
+/*--------------------------------------ABOUT US END---------------------------------------------------------------------------------------------------------------------------------*/
+
+#peopleimage{
+    float:left;
+    display:inline-grid;
+    width:510px;
+    height:600px;
+    background-color: #533B22;
+    margin:20px 0px 0px 3%;
+    border:5px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#peopleimage peopleimagetitle{
+    color:black;
+    font-size:20px;
+    border-bottom:5px solid black;
+    padding:20px;
+    display:inline-block;
+    width:94%;
+}
+
+    #peopleimage a{
+        width:500px;
+}
+
+    #peopleimage img{
+        width:450px;
+        height:400px;
+        -webkit-transform: rotate(90deg);
+        display:inline-table;
+        float:none;
+        padding:20px;
+        margin:30px 0px 0px 0px;
+}
+
+/*-------------------------------Footer----------*/
+#footer{
+    background-color: #f8f8f8;
+    color:red;
+    text-align:center;
+    padding:5px;
+    padding-top:10px;
+    position:inherit;
+    width:100%;
+    height:100%;
+    margin-top:0%;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width:1520px) {
+#info {
+    float:right;
+    text-align: center;
+    display:inline-block;
+}
+    
+#infoalign1{
+    float:none;
+    padding: 0px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
+    text-align: center; 
+}
+    
+#infoalign2{
+    float:none;
+    padding: 0px 0px 20px 0px;
+    margin:0px 0px 0px 0px;
+    text-align: center;
+}
+
+#header punchline{
+    padding:5px; 
+}
+   
+/*--------------------------------------Homepage image--------------------*/
+#peopleimage{
+    float:left;
+    display:inline-table;
+    width:410px;
+    height:600px;
+    background-color: #533B22;
+    margin:20px 0px 0px 3%;
+    border:5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+}
+    
+    #peopleimage peopleimagetitle{
+        color:black;
+        font-size:20px;
+        border-bottom:5px solid black;
+        padding:20px;
+        display:inline-table;
+        width:360px;
+    
+    
+    
+}
+    #peopleimage a{
+        width:500px;
+}
+
+    #peopleimage img{
+        width:350px;
+        height:300px;
+        -webkit-transform: rotate(90deg);
+        display:inline-table;
+        float:none;
+        padding:20px;
+        margin:30px 0px 0px 0px;
+}
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------Mobile friendly responsive----------------------*/
+@media screen and (max-width:840px) {
+#totalconainer {
+    width:100%;
+    margin:0px 0px 0px 0px;
+    display:inline-table;
+    }
+
+#maincontainer{
+    width:99%;
+    margin:10px 0px 0px 0px;
+    position: inherit;
+    text-align:inherit;
+    display:inline-block;
+}
+
+/*    -----------Header mobile-------------*/
+#header{
+    display:inherit;
+    position: relative;
+    padding-bottom:15px;
+    width:100%;
+}
+    
+    #header maintitle{
+        text-align: center;
+        font-size:30px;
+        margin-top:20px;
+        
+        
+        
+    } 
+
+    #header localto{
+        font-size:15px;
+        
+    }
+    
+    
+    #header punchline{
+        text-align:right;
+        font-size:20px;
+        margin:0px 0px 0px 0px;
+        float:right;
+        padding:2px 2px 2px 2px;
+        display:table-cell;
+        position: relative;
+}
+
+#logo{
+        float:left;
+        margin:0 
+    }
+    
+/*    Header mobileEND---------------------------------------------------------*/
+    
+#links{
+        width:99%;
+        text-align:center;
+        margin:20px 0px 0px 0px;
+    }
+
+#info {
+        float:none;
+        margin:20px 0px 0px 0px;
+        padding:0px 0px 0px 0px;
+        width:99%;
+        text-align: center;
+}
+    
+    #info img{
+        width:250px;
+        height:200px;
+        display:inline-table;
+        
+        
+        
+    }
+
+    #infoalign1{
+        float:none;
+        padding: 20px 0px 0px 0px;
+        margin:0px 0px 0px 0px;
+        text-align: center; 
+    }
+
+    #infoalign2{
+        float:none;
+        padding: 0px 0px 20px 0px;
+        margin:0px 0px 0px 0px;
+        text-align: center;
+}
+
+
+#intro{
+    float:none;
+    margin:20px 0px 0px 0px;
+    width:99%;
+    display:inline-block;
+    font-size:17px;
+}
+    
+    
+    /*--------------------------------------Homepage image--------------------*/
+#peopleimage{
+    float:none;
+    display:inline-block;
+    width:99%;
+    min-width:99%;
+    max-width:99%;
+    
+    height:100%;
+    background-color: #533B22;
+    margin:20px 0px 0px 0px;
+    
+    border:5px solid black;
+    border-radius: 10px;
+    padding-bottom:50px;
+}
+
+#peopleimage peopleimagetitle{
+    color:black;
+    font-size:20px;
+    border-bottom:5px solid black;
+    padding:20px;
+    display:inline-table;
+    position: relative;
+    width:100%;
+    min-width:100%;
+    margin:0px 0px 30px 0px;
+}
+
+
+#peopleimage img{
+    -webkit-transform: rotate(90deg);
+    width:100%;
+    height:100%;
+    display:block;
+    float:none;
+    padding:auto;
+    margin:50px 0px;
+    text-align: center;
+}
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

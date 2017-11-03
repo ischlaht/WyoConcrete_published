@@ -1,0 +1,66 @@
+
+#containerci{
+    background-color:#FFD700;
+    width:98%;
+    min-width:100px;
+    height:790px;
+    margin-top:auto ;
+    margin-bottom:auto ;
+    padding-bottom:3% ;
+    position:relative;
+    display:inline-block;
+    border:15px solid #533B22;
+    border-radius:20px;
+    text-align:center;
+}
+
+
+#header{
+    background-color:#533B22;
+    height:100%;
+    width: 98%;
+    margin-top:.5% ;
+    margin-bottom:auto;
+    margin-left:1%;
+    padding-bottom: ;
+    padding-top:1px;
+    border-radius:10px;
+}
+
+
+#info{
+    color:black;
+}
+
+/*Shawn*/
+#shawncontainer{
+    background-color:darkgrey;
+    width:50%;;
+    height:40%;
+    min-height:250px;
+    color:black;
+    padding:3%;
+    padding-bottom:2%;
+    border:10px solid #533B22;
+    border-radius:15px;
+    margin-left:22%  
+}
+
+#footer{
+    background-color: black;
+    color:red;
+    text-align:center;
+    padding:5px;
+    padding-top:10px;
+    position:inherit;
+    width:99%;
+    height:100%;
+    margin-top:0%;
+}
+
+@media screen and (max-width: 848px){
+    #containerci{
+        width:89%;
+    }
+
+}
